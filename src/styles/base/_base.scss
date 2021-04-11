@@ -1,0 +1,30 @@
+*{
+
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #353b48;
+    background: url('https://s3.console.aws.amazon.com/s3/object/kkportfolio-assets?region=ap-south-1&prefix=images/bg2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+html{
+      scroll-behavior: smooth;
+}
+
+::selection{
+      background-color: yellow;
+}
+
+::-webkit-scrollbar{
+      width: 10px;
+      background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+        background-color: #353b48;
+}

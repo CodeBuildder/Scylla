@@ -1,0 +1,96 @@
+#home{
+    height: 100vh;
+    min-height: 500px;
+    background-color: #333;
+    background: url('https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/bg2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home .inner-width{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#home .content{
+
+  width: 100%;
+  color: white;
+}
+
+.content h1{
+
+    font-size: 60px;
+    margin-bottom: 60px;
+    transition: .3s ease-in-out;
+
+}
+
+  .content h1:hover{
+
+    color: #48dbfb;
+}
+
+
+
+#home .content h1::after{
+
+    content: "CodeBuilder";
+    animation: textanim 10s ease-in-out infinite;
+  }
+
+@keyframes textanim{
+
+    25%{
+    content: "Insightful";
+    }
+    50%{
+        content: "Ingenious ";
+    }
+    75%{
+        content: "Influential";
+    }
+}
+
+.sm a{
+
+    color: white;
+    margin: 0 10px;
+    transition:  .2s linear;
+}
+
+.sm a:hover{
+
+    color: #48dbfb;
+}
+
+#home .buttons{
+
+    margin-top: 60px;
+}
+
+#home .buttons a{
+
+    color: #48dbfb;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px 30px;
+    width: 180px;
+    border: 1px solid #48dbfb;
+    padding: 14px 0;
+    border-radius: 10px;
+    transition: .2s linear;
+}
+
+#home .buttons a:hover,
+#home .buttons a:nth-child(2)
+{
+
+    background-color: #48dbfb;
+    color: white;
+}
