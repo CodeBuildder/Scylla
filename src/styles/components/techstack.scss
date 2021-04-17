@@ -1,0 +1,37 @@
+.services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service{
+    width: calc(7% - 5px);
+    height: 65px;
+    text-align: center;
+    border: 3px solid $primary-color;
+    border-radius: 20px;
+    margin: 20px 5px;
+    padding: 8px ;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.service{
+    color: $primary-color;
+    font-size: 20px;
+    transition: .3s linear;
+}
+
+.service h4{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.service:hover{
+    background-color: $primary-color
+}
+
+.service:hover{
+    color:#000;
+}

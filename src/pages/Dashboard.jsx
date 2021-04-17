@@ -1,5 +1,6 @@
 import Home from '../components/home'
 import About from '../components/about'
+import Techstack from '../components/techstack'
 
 
 
@@ -28,7 +29,7 @@ export default function Dashboard() {
 
       <Home />
       <About />
-
+      <Techstack />
 
 
 
