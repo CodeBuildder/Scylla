@@ -1,8 +1,9 @@
-import Home from '../components/home'
-import About from '../components/about'
-import Techstack from '../components/techstack'
-
-
+import Home from "../components/home";
+import About from "../components/about";
+import Techstack from "../components/techstack";
+import Education from "../components/education";
+import Experience from "../components/experience";
+import Footer from "../components/footer";
 
 export default function Dashboard() {
   return (
@@ -30,11 +31,9 @@ export default function Dashboard() {
       <Home />
       <About />
       <Techstack />
-
-
-
-
-
+      <Education />
+      <Experience />
+      <Footer />
     </div>
   );
 }

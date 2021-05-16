@@ -1,0 +1,133 @@
+.time-line,
+.works {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: calc(50% - 20px);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  margin: 10px 0;
+  padding: 30px;
+  position: relative;
+}
+
+.block::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 120%;
+  background-color: #ddd;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.block::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #48dbfb;
+  left: -28px;
+  top: 30px;
+}
+
+.block h3 {
+  font-size: 15px;
+  padding-bottom: 10px;
+  margin: 10px 0;
+}
+
+.block p {
+  color: #444;
+  font-size: 13px;
+}
+
+.blockmid {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  margin: 50px 0 0 290px;
+  padding: 30px;
+  position: relative;
+}
+.blockmid::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 120%;
+  background-color: #ddd;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.blockmid::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #48dbfb;
+  left: -28px;
+  top: 30px;
+}
+
+.blockmid h4 {
+  font-size: 15px;
+  padding-bottom: 10px;
+  margin: 10px 0;
+}
+
+.blockmid p {
+  color: #444;
+  font-size: 13px;
+}
+
+.blockcertif {
+  width: calc(50% - 20px);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  margin: 10px 0;
+  padding: 30px;
+  position: relative;
+  text-align: justify;
+}
+
+.blockcertif::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 120%;
+  background-color: #ddd;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.blockcertif::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #48dbfb;
+  left: -28px;
+  top: 30px;
+}
+
+.blockcertif h3 {
+  font-size: 15px;
+  vertical-align: auto;
+  padding-bottom: 5px;
+}

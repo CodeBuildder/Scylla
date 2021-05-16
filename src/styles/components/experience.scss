@@ -1,0 +1,61 @@
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.experience {
+  width: calc(45% - 15px);
+  background-color: #232731;
+  transition: box-shadow 0.4s;
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 40px 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+h1 {
+  text-align: center;
+  align-content: center;
+}
+
+.experience h4 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.experience:hover {
+  box-shadow: 0 0 10px rgba(240, 239, 239, 0.774);
+}
+
+.experience:hover .icon {
+  color: #fff;
+}
+
+.club-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.exp-head {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.exp-content {
+  text-align: justify;
+  margin-top: 10px;
+  margin-left: 12px;
+  color: #cacfda;
+  letter-spacing: 1px;
+}
+
+.span {
+  margin-bottom: 10px;
+}

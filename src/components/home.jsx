@@ -49,7 +49,7 @@ export default function Home() {
             </BootstrapTooltip>
             <BootstrapTooltip title="Connect with me @ Linkedin">
               <a
-                href="https://linkedin.com/in/kaushik-kumaran-499bba68"
+                href="https://www.linkedin.com/in/kaushikkums/"
                 target="_blank"
                 className="fab fa-linkedin-in"
               ></a>
@@ -71,7 +71,10 @@ export default function Home() {
           </div>
           <div className="buttons">
             <a href="#contact">Contact me</a>
-            <a href="cv/Resume- Kaushik Kumaran.pdf" target="_blank">
+            <a
+              href="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/Resume/Resume-+Kaushik+Kumaran.pdf"
+              target="_blank"
+            >
               Download CV
             </a>
           </div>
