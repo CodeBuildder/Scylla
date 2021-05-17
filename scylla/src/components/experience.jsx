@@ -47,7 +47,7 @@ export default function Experience() {
                 <img
                   src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/alexa.png"
                   className="club-logo"
-                  alt="GenY"
+                  alt="Alexa"
                 ></img>
                 <h2>Alexa Developers, SRMIST KTR</h2>
               </div>
@@ -56,7 +56,7 @@ export default function Experience() {
                 <p className="exp-content">
                   <ul type="disc">
                     <li className="span">
-                      Conducted a 2-day workshop in Fundamentals and some
+                      Conducted a 2-day workshop on Fundamentals and some
                       Advanced concepts of AWS.
                     </li>
                     <li className="span">
@@ -74,7 +74,7 @@ export default function Experience() {
               <div className="exp-head">
                 <img
                   src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/techanalogy.png"
-                  alt="GenY"
+                  alt="TA"
                 ></img>
               </div>
               <div className="content-box">
@@ -91,7 +91,7 @@ export default function Experience() {
           </Zoom>
           <Zoom left>
             <div className="experience">
-              <h1>Awaiting more projects!</h1>
+              <h1>Stay tuned for more!</h1>
             </div>
           </Zoom>
         </div>

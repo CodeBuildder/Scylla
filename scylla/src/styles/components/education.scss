@@ -13,6 +13,11 @@
   margin: 10px 0;
   padding: 30px;
   position: relative;
+  transition: 0.3s ease-in;
+}
+
+.block:hover {
+  box-shadow: 2px 5px rgba(97, 92, 92, 0.774);
 }
 
 .block::before {
@@ -59,7 +64,12 @@
   margin: 50px 0 0 290px;
   padding: 30px;
   position: relative;
+  transition: 0.3s ease-in;
 }
+.blockmid:hover {
+  box-shadow: 2px 5px rgba(97, 92, 92, 0.774);
+}
+
 .blockmid::before {
   content: "";
   position: absolute;
@@ -91,43 +101,4 @@
 .blockmid p {
   color: #444;
   font-size: 13px;
-}
-
-.blockcertif {
-  width: calc(50% - 20px);
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 50px;
-  margin: 10px 0;
-  padding: 30px;
-  position: relative;
-  text-align: justify;
-}
-
-.blockcertif::before {
-  content: "";
-  position: absolute;
-  width: 1px;
-  height: 120%;
-  background-color: #ddd;
-  left: -20px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.blockcertif::after {
-  content: "";
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #48dbfb;
-  left: -28px;
-  top: 30px;
-}
-
-.blockcertif h3 {
-  font-size: 15px;
-  vertical-align: auto;
-  padding-bottom: 5px;
 }

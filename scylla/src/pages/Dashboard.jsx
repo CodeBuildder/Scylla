@@ -4,6 +4,7 @@ import Techstack from "../components/techstack";
 import Education from "../components/education";
 import Experience from "../components/experience";
 import Footer from "../components/footer";
+import Certification from "../components/certifications";
 
 export default function Dashboard() {
   return (
@@ -27,12 +28,12 @@ export default function Dashboard() {
           </div>
         </div>
       </nav>
-
       <Home />
       <About />
       <Techstack />
       <Education />
-      <Experience />
+      <Experience />\
+      <Certification />
       <Footer />
     </div>
   );

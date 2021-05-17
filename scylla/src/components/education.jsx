@@ -10,8 +10,8 @@ export default function Education() {
         <div className="time-line">
           <Slide left>
             <div className="block">
-              <h4>2017-2019</h4>
-              <h3>Indian School Muscat</h3>
+              <h4>Indian School Muscat</h4>
+              <h3>2017-2019</h3>
               <p>
                 <i>High School Diploma</i>
               </p>
@@ -29,7 +29,7 @@ export default function Education() {
             <div className="block">
               <h4>2019-2023</h4>
               <h3>SRM University</h3>
-              <h5>Bachelor of Computer Science Enginnering.</h5>
+              <h5>Bachelor of Technology in Computer Science Enginnering.</h5>
             </div>
           </Slide>
           <Slide left>

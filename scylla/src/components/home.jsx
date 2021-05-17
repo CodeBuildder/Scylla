@@ -1,6 +1,6 @@
 import Typical from "react-typical";
 import Tooltip from "@material-ui/core/Tooltip";
-import { withStyles, makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 
 const useStylesBootstrap = makeStyles((theme) => ({
   arrow: {
