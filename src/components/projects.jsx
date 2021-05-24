@@ -83,7 +83,7 @@ export default function Experience() {
                       href="https://ksdecidola.herokuapp.com/"
                     >
                       {" "}
-                      Source <i class="fas fa-external-link-alt"></i>
+                      View <i class="fas fa-external-link-alt"></i>
                     </a>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ export default function Experience() {
                       href="https://thechatterbotks.herokuapp.com/"
                     >
                       {" "}
-                      Source <i class="fas fa-external-link-alt"></i>
+                      View <i class="fas fa-external-link-alt"></i>
                     </a>
                   </div>
                 </div>
@@ -182,7 +182,7 @@ export default function Experience() {
                       href="https://ksbudgify.herokuapp.com/"
                     >
                       {" "}
-                      Source <i class="fas fa-external-link-alt"></i>
+                      View <i class="fas fa-external-link-alt"></i>
                     </a>
                   </div>
                 </div>
