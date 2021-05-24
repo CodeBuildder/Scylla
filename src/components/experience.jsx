@@ -82,7 +82,11 @@ export default function Experience() {
                 <p className="exp-content">
                   <ul type="disc">
                     <li className="span">
-                      Developed the Front-End of the Events Portal.
+                      Developed the Front-End of the Events Portal. Do check it
+                      out{" "}
+                      <a href="https://events.techanalogy.org/">
+                        @events-techanalogy.
+                      </a>
                     </li>
                   </ul>
                 </p>

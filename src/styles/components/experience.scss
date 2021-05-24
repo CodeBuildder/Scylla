@@ -58,4 +58,14 @@ h1 {
 
 .span {
   margin-bottom: 10px;
+  a {
+    text-decoration: none;
+    color: #cacfda;
+    transition: 0.3s ease-in;
+  }
+
+  a:hover {
+    color: $primary-color;
+    transform: scale(1.2);
+  }
 }
