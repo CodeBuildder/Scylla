@@ -1,4 +1,4 @@
-import Zoom from "react-reveal/Zoom";
+import Bounce from "react-reveal/Bounce";
 import { SiMongodb } from "react-icons/si";
 import { SiSocketDotIo } from "react-icons/si";
 
@@ -9,7 +9,7 @@ export default function Experience() {
         <h1 className="title">Projects</h1>
         <div class="section-title"></div>
         <div class="services">
-          <Zoom left>
+          <Bounce bottom>
             <div className="project">
               <div className="proj-container">
                 <div className="proj-head">
@@ -56,9 +56,9 @@ export default function Experience() {
                 </div>
               </div>
             </div>
-          </Zoom>
+          </Bounce>
 
-          <Zoom left>
+          <Bounce bottom>
             <div className="project">
               <div className="proj-container">
                 <div className="proj-head">
@@ -104,9 +104,9 @@ export default function Experience() {
                 </div>
               </div>
             </div>
-          </Zoom>
+          </Bounce>
 
-          <Zoom left>
+          <Bounce bottom>
             <div className="project">
               <div className="proj-container">
                 <div className="proj-head">
@@ -155,9 +155,9 @@ export default function Experience() {
                 </div>
               </div>
             </div>
-          </Zoom>
+          </Bounce>
 
-          <Zoom left>
+          <Bounce bottom>
             <div className="project">
               <div className="proj-container">
                 <div className="proj-head">
@@ -206,7 +206,7 @@ export default function Experience() {
                 </div>
               </div>
             </div>
-          </Zoom>
+          </Bounce>
         </div>
       </div>
     </section>

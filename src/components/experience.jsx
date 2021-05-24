@@ -1,4 +1,4 @@
-import Zoom from "react-reveal/Zoom";
+import Bounce from "react-reveal/Bounce";
 
 export default function Experience() {
   return (
@@ -7,7 +7,7 @@ export default function Experience() {
         <h1 className="title">Experience</h1>
         <div class="section-title"></div>
         <div class="services">
-          <Zoom left>
+          <Bounce bottom>
             <div className="experience">
               <h4>COLLEGE CLUB</h4>
               <div className="exp-head">
@@ -39,8 +39,8 @@ export default function Experience() {
                 </p>
               </div>
             </div>
-          </Zoom>
-          <Zoom left>
+          </Bounce>
+          <Bounce bottom>
             <div className="experience">
               <h4>COLLEGE CLUB</h4>
               <div className="exp-head">
@@ -67,8 +67,8 @@ export default function Experience() {
                 </p>
               </div>
             </div>
-          </Zoom>
-          <Zoom left>
+          </Bounce>
+          <Bounce bottom>
             <div className="experience">
               <h4>INTERNSHIP</h4>
               <div className="exp-head">
@@ -92,12 +92,12 @@ export default function Experience() {
                 </p>
               </div>
             </div>
-          </Zoom>
-          <Zoom left>
+          </Bounce>
+          <Bounce bottom>
             <div className="experience">
               <h1>Stay tuned for more!</h1>
             </div>
-          </Zoom>
+          </Bounce>
         </div>
       </div>
     </section>
