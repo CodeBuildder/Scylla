@@ -4,7 +4,7 @@ import { SiSocketDotIo } from "react-icons/si";
 
 export default function Experience() {
   return (
-    <section id="services" class="dark">
+    <section id="works" class="dark">
       <div class="inner-width">
         <h1 className="title">Projects</h1>
         <div class="section-title"></div>

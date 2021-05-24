@@ -22,7 +22,7 @@ import LightSpeed from "react-reveal/LightSpeed";
 
 export default function Techstack() {
   return (
-    <section id="services" class="dark">
+    <section id="tech" class="dark">
       <div class="inner-width">
         <h1 className="title">Tech Savvy</h1>
         <div class="section-title"></div>

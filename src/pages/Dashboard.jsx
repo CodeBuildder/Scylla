@@ -22,8 +22,9 @@ export default function Dashboard() {
           <div className="navbar-menu">
             <a href="#">Home</a>
             <a href="#about">About</a>
-            <a href="#services">Insights</a>
+            <a href="#tech">TechStack</a>
             <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
             <a href="#certification">Certification</a>
             <a href="#works">Works</a>
             <a href="#contact">Contact</a>

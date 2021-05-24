@@ -2,7 +2,7 @@ import Zoom from "react-reveal/Zoom";
 
 export default function Experience() {
   return (
-    <section id="services" class="dark">
+    <section id="experience" class="dark">
       <div class="inner-width">
         <h1 className="title">Experience</h1>
         <div class="section-title"></div>
