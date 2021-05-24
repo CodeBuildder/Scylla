@@ -34,7 +34,7 @@ export default function Experience() {
                       href="https://thetaskmanagerapp.herokuapp.com"
                     >
                       {" "}
-                      Source <i class="fas fa-external-link-alt"></i>
+                      View <i class="fas fa-external-link-alt"></i>
                     </a>
                   </div>
                 </div>
