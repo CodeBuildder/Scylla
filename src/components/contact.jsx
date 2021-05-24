@@ -7,35 +7,26 @@ export default function Contact() {
   const [successMessage, setSuccessMessage] = useState(false);
   const [failedMessage, setFailedMessage] = useState(false);
 
-  const onSubmit = async (data) => {
+  const onSubmit = (data) => {
     console.log(data);
-    try {
-      const result = await axios.post(
-        "https://ksmailer.herokuapp.com/send",
-        data,
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
+    axios
+      .post("https://ksmailer.herokuapp.com/send", data, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+      .then((response) => {
+        if (response.status === 201) {
+          console.log(data);
+          setSuccessMessage(true);
+        } else {
+          setFailedMessage(true);
         }
-      );
-      console.log(result.status);
-      console.log(result.data);
-    } catch (e) {
-      console.log(e);
-    }
-    // .then((response) => {
-    //   if (response.status === 201) {
-    //     //console.log(data);
-    //     setSuccessMessage(true);
-    //   } else {
-    //     setFailedMessage(true);
-    //   }
-    // })
-    // .catch((err) => {
-    //   console.log(err);
-    //   setFailedMessage(true);
-    // });
+      })
+      .catch((err) => {
+        console.log(err);
+        setFailedMessage(true);
+      });
   };
 
   return (
