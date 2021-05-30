@@ -78,7 +78,7 @@ export default function Certification() {
             <div className="blockcertif">
               <div className="info1">
                 <img
-                  src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/cloudlogo1.png"
+                  src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/32916853"
                   alt="Google Cloud"
                   className="icon"
                 />
@@ -88,6 +88,14 @@ export default function Certification() {
               </div>
               <h3>Google Cloud: Associate Cloud Engineer</h3>
               <h6>Google Cloud</h6>
+            </div>
+          </Bounce>
+          <Bounce bottom>
+            <div className="blockcertif">
+              <div className="info1">
+                <div className="info2"></div>
+              </div>
+              <h1>Achieving more out there! 🎯</h1>
             </div>
           </Bounce>
         </div>

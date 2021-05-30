@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
-import { X } from "react-feather";
 import Backdrop from "@material-ui/core/Backdrop";
 import { useSpring, animated } from "react-spring/web.cjs"; // web.cjs is required for IE 11 support
 
@@ -51,7 +50,7 @@ Fade.propTypes = {
   onExited: PropTypes.func,
 };
 
-export default function GCPModal() {
+export default function ACEModal() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
 
@@ -83,7 +82,7 @@ export default function GCPModal() {
         <Fade in={open}>
           <div className="certifModal">
             <img
-              src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/Google+Cloud+Associate+Engineer+Certified.pdf"
+              src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/32916853"
               className="certifPic"
             />
           </div>
