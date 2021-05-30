@@ -3,6 +3,7 @@ import TCSModal from "../content/tcsModal";
 import GCPModal from "../content/gcpModal";
 import NodeJSModal from "../content/nodeModal";
 import ReactJSModal from "../content/reactModal";
+import ACEModal from "../content/aceModal";
 
 export default function Certification() {
   return (
@@ -46,7 +47,7 @@ export default function Certification() {
               <div className="info1">
                 <img
                   src="https://play-lh.googleusercontent.com/VyIvp4Wl7DOFnIcsxrIw0pq43zUd8Yb4n96DpDRDrSsBkxIodDMMDfQk4XunNT5oDJ7Z=s180"
-                  alt="Google Cloud"
+                  alt="NodeJS"
                   className="icon"
                 />
                 <div className="info2">
@@ -62,7 +63,7 @@ export default function Certification() {
               <div className="info1">
                 <img
                   src="https://play-lh.googleusercontent.com/VyIvp4Wl7DOFnIcsxrIw0pq43zUd8Yb4n96DpDRDrSsBkxIodDMMDfQk4XunNT5oDJ7Z=s180"
-                  alt="Google Cloud"
+                  alt="ReactJS"
                   className="icon"
                 />
                 <div className="info2">
@@ -71,6 +72,22 @@ export default function Certification() {
               </div>
               <h3>Complete ReactJS Stack</h3>
               <h6>Udemy</h6>
+            </div>
+          </Bounce>
+          <Bounce bottom>
+            <div className="blockcertif">
+              <div className="info1">
+                <img
+                  src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/cloudlogo1.png"
+                  alt="Google Cloud"
+                  className="icon"
+                />
+                <div className="info2">
+                  <ACEModal />
+                </div>
+              </div>
+              <h3>Google Cloud: Associate Cloud Engineer</h3>
+              <h6>Google Cloud</h6>
             </div>
           </Bounce>
         </div>
