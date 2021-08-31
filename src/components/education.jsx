@@ -27,8 +27,8 @@ export default function Education() {
           </Slide>
           <Slide left>
             <div className="block">
-              <h4>2019-2023</h4>
-              <h3>SRM University</h3>
+              <h4>SRM University3</h4>
+              <h3>2019-2023</h3>
               <h5>Bachelor of Technology in Computer Science Enginnering.</h5>
             </div>
           </Slide>

@@ -89,6 +89,10 @@ export default function Contact() {
             Submit
           </button>
         </form>
+        <span className="formNote">
+          Hey guys, kindly wait for 2-3 minutes for the confirmation message to
+          appear!
+        </span>
       </div>
     </section>
   );

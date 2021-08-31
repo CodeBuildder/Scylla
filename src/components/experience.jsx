@@ -121,6 +121,7 @@ export default function Experience() {
                   alt="IEEE"
                   className="club-logo"
                 ></img>
+                <h2>IEEE SRM Student Branch</h2>
               </div>
               <div className="content-box">
                 July 2021 - Present
