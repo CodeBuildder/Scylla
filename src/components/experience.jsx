@@ -44,7 +44,7 @@ export default function Experience() {
           <Bounce bottom>
             <div className="experience">
               <h4>COLLEGE CLUB</h4>
-              <h3>Technical Associate</h3>
+              <h3>Technical Executive</h3>
               <div className="exp-head">
                 <img
                   src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/alexa.png"
