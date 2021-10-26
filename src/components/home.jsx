@@ -72,7 +72,7 @@ export default function Home() {
           <div className="buttons">
             <a href="#contact">Contact me</a>
             <a
-              href="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/Resume/Resume-+Kaushik+Kumaran.pdf"
+              href="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/Resume/Kaushik's+Resume+Formal.pdf"
               target="_blank"
             >
               Download CV

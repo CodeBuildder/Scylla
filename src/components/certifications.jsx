@@ -1,8 +1,7 @@
 import Bounce from "react-reveal/Bounce";
 import TCSModal from "../content/tcsModal";
 import GCPModal from "../content/gcpModal";
-import NodeJSModal from "../content/nodeModal";
-import ReactJSModal from "../content/reactModal";
+import AWSModal from "../content/awsModal";
 import ACEModal from "../content/aceModal";
 
 export default function Certification() {
@@ -42,38 +41,7 @@ export default function Certification() {
               <h6>Google Cloud </h6>
             </div>
           </Bounce>
-          <Bounce bottom>
-            <div className="blockcertif">
-              <div className="info1">
-                <img
-                  src="https://play-lh.googleusercontent.com/VyIvp4Wl7DOFnIcsxrIw0pq43zUd8Yb4n96DpDRDrSsBkxIodDMMDfQk4XunNT5oDJ7Z=s180"
-                  alt="NodeJS"
-                  className="icon"
-                />
-                <div className="info2">
-                  <NodeJSModal />
-                </div>
-              </div>
-              <h3>Complete NodeJS Stack</h3>
-              <h6>Udemy </h6>
-            </div>
-          </Bounce>
-          <Bounce bottom>
-            <div className="blockcertif">
-              <div className="info1">
-                <img
-                  src="https://play-lh.googleusercontent.com/VyIvp4Wl7DOFnIcsxrIw0pq43zUd8Yb4n96DpDRDrSsBkxIodDMMDfQk4XunNT5oDJ7Z=s180"
-                  alt="ReactJS"
-                  className="icon"
-                />
-                <div className="info2">
-                  <ReactJSModal />
-                </div>
-              </div>
-              <h3>Complete ReactJS Stack</h3>
-              <h6>Udemy</h6>
-            </div>
-          </Bounce>
+
           <Bounce bottom>
             <div className="blockcertif">
               <div className="info1">
@@ -93,9 +61,17 @@ export default function Certification() {
           <Bounce bottom>
             <div className="blockcertif">
               <div className="info1">
-                <div className="info2"></div>
+                <img
+                  src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/aws+academy.png"
+                  alt="ReactJS"
+                  className="icon"
+                />
+                <div className="info2">
+                  <AWSModal />
+                </div>
               </div>
-              <h1>Achieving more out there! 🎯</h1>
+              <h3>AWS Academy Graduate</h3>
+              <h6>Amazon Web Service</h6>
             </div>
           </Bounce>
         </div>
@@ -103,3 +79,12 @@ export default function Certification() {
     </section>
   );
 }
+
+// <Bounce bottom>
+//             <div className="blockcertif">
+//               <div className="info1">
+//                 <div className="info2"></div>
+//               </div>
+//               <h1>Achieving more out there! 🎯</h1>
+//             </div>
+//           </Bounce>

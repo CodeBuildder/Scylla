@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
-import { X } from "react-feather";
+
 import Backdrop from "@material-ui/core/Backdrop";
 import { useSpring, animated } from "react-spring/web.cjs"; // web.cjs is required for IE 11 support
 
@@ -83,8 +83,9 @@ export default function ReactModal() {
         <Fade in={open}>
           <div className="certifModal">
             <img
-              src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/CompleteReactDeveloperCourse-1.png"
+              src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/aws+academy.png"
               className="certifPic"
+              alt="AWS Academy Graduate"
             />
           </div>
         </Fade>

@@ -10,31 +10,26 @@ export default function Experience() {
           <Bounce bottom>
             <div className="experience">
               <h4>COLLEGE CLUB</h4>
-              <h3>Technical Associate</h3>
+              <h3>Web/App Development Lead</h3>
               <div className="exp-head">
                 <img
-                  src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/geny.png"
+                  src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/IEEE.png"
+                  alt="IEEE"
                   className="club-logo"
-                  alt="GenY"
                 ></img>
-                <h2>GenY, SRMIST KTR</h2>
+                <h2>IEEE SRM Student Branch</h2>
               </div>
               <div className="content-box">
-                Nov 2020 - Present
+                July 2021 - Present
                 <p className="exp-content">
                   <ul type="disc">
                     <li className="span">
-                      Built a File-Uploader application using NodeJS and Multer
-                      as part of the team project.
+                      {" "}
+                      Developed React-Native Application for team project.
                     </li>
                     <li className="span">
-                      Working with GenY Team on the Front-End and Back-end of
-                      the team website.
-                    </li>
-
-                    <li className="span">
-                      Worked on developing a CRM (MERN) as part of the team
-                      website.
+                      {" "}
+                      Workshops and mentoring on various Web-based projects.
                     </li>
                   </ul>
                 </p>
@@ -111,29 +106,35 @@ export default function Experience() {
               </div>
             </div>
           </Bounce>
+
           <Bounce bottom>
             <div className="experience">
               <h4>COLLEGE CLUB</h4>
-              <h3>Web/App Development Lead</h3>
+              <h3>Web Developer</h3>
               <div className="exp-head">
                 <img
-                  src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/IEEE.png"
-                  alt="IEEE"
+                  src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/geny.png"
                   className="club-logo"
+                  alt="GenY"
                 ></img>
-                <h2>IEEE SRM Student Branch</h2>
+                <h2>GenY, SRMIST KTR</h2>
               </div>
               <div className="content-box">
-                July 2021 - Present
+                Nov 2020 - Nov 2021
                 <p className="exp-content">
                   <ul type="disc">
                     <li className="span">
-                      {" "}
-                      Developed React-Native Application for team project.
+                      Built a File-Uploader application using NodeJS and Multer
+                      as part of the team project.
                     </li>
                     <li className="span">
-                      {" "}
-                      Workshops and mentoring on various Web-based projects.
+                      Working with GenY Team on the Front-End and Back-end of
+                      the team website.
+                    </li>
+
+                    <li className="span">
+                      Worked on developing a CRM (MERN) as part of the team
+                      website.
                     </li>
                   </ul>
                 </p>
