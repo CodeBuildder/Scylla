@@ -10,7 +10,7 @@ export default function Experience() {
           <Bounce bottom>
             <div className="experience">
               <h4>COLLEGE CLUB</h4>
-              <h3>Web/App Development Lead</h3>
+              <h3>Acting Head Web/App Development</h3>
               <div className="exp-head">
                 <img
                   src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/IEEE.png"
