@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 
 import Backdrop from "@material-ui/core/Backdrop";
-import { useSpring, animated } from "react-spring/web.cjs"; // web.cjs is required for IE 11 support
+import { useSpring, animated } from "react-spring/web.cjs";
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -51,7 +51,7 @@ Fade.propTypes = {
   onExited: PropTypes.func,
 };
 
-export default function ReactModal() {
+export default function CertificateModal(props) {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
 
@@ -63,6 +63,7 @@ export default function ReactModal() {
     setOpen(false);
   };
 
+  console.log(props.props.certificateName);
   return (
     <div>
       <button type="button" className="info1" onClick={handleOpen}>
@@ -82,11 +83,40 @@ export default function ReactModal() {
       >
         <Fade in={open}>
           <div className="certifModal">
-            <img
-              src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/aws+academy.png"
-              className="certifPic"
-              alt="AWS Academy Graduate"
-            />
+            {props.props.certificateName ==
+            "Google Cloud: Associate Cloud Engineer" ? (
+              <img
+                src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/32916853"
+                alt="Google Cloud Platform"
+                className="certifPic"
+              />
+            ) : props.props.certificateName == "AWS Academy Graduate" ? (
+              <img
+                src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/aws+academy.png"
+                alt="AWS Academy Graduate"
+                className="certifPic"
+              />
+            ) : props.props.certificateName ==
+              "Career Edge - Knockdown the Lockdown" ? (
+              <img
+                src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/TCS+ion-1.png"
+                alt="Tata Consultancy Services"
+                className="certifPic"
+              />
+            ) : props.props.certificateName == "#30DaysCloudGoogle" ? (
+              <img
+                src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/%2330DaysCloudGoogleParticipation+Certificate-1.png"
+                alt="Google Cloud, India"
+                className="certifPic"
+              />
+            ) : (
+              <h4>
+                Certificate not Visible? Servers are probably down. Do checkout
+                my LinkedIn for the actual certificates!
+                <br />
+                PS: Feel free to Hit Me Up for Funding my Servers xD!
+              </h4>
+            )}
           </div>
         </Fade>
       </Modal>
