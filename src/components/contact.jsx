@@ -8,7 +8,6 @@ export default function Contact() {
   const [failedMessage, setFailedMessage] = useState(false);
 
   const onSubmit = (data) => {
-    //console.log(data);
     axios
       .post("https://ksmailer.herokuapp.com/send", data, {
         headers: {
@@ -17,7 +16,6 @@ export default function Contact() {
       })
       .then((response) => {
         if (response.status === 201) {
-          //console.log(data);
           setSuccessMessage(true);
         } else {
           setFailedMessage(true);
