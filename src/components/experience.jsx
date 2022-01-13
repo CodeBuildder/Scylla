@@ -1,146 +1,127 @@
+import { ListItem } from "@material-ui/core";
+import React, { useState, useEffect } from "react";
 import Bounce from "react-reveal/Bounce";
 
+const experienceDetails = [
+  {
+    experienceType: "INTERNSHIP",
+    jobTitle: "Software Development Engineer",
+    companyLogo:
+      "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/magnox.png",
+    companyName: "Magnox Technologies Pvt Lt.",
+    duration: "Nov 2021 - Present",
+    descrption: [
+      " Single Handedly architected a robust and scalable Ed Tech platform using React-Native.",
+      "Utilized best industry practices to develop and design the applications.",
+    ],
+  },
+  {
+    experienceType: "INTERNSHIP",
+    jobTitle: "Software Development Engineer",
+    companyLogo:
+      "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/techanalogy.png",
+    companyName: "Tech Analogy",
+    duration: "Apr 2021 - Nov 2021",
+    descrption: [
+      " Managed and lead the team and developed registration portals with payment integration which were viewed by over 2000 people.",
+      "One of the key speakers for the event Cloud Net, a 6 Day Cloud Computing Workshop. Mentored over 150 students from colleges across India.",
+    ],
+  },
+  {
+    experienceType: "COLLEGE ORGANIZATION",
+    jobTitle: "Acting Head Web/App Development",
+    companyLogo:
+      "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/IEEE.png",
+    companyName: "IEEE SRM Student Branch",
+    duration: "July 2021 - Present",
+    descrption: [
+      "Heading a Team of 25 members",
+      "Upskilling and mentoring on various Web-based projects.",
+    ],
+  },
+  {
+    experienceType: "COLLEGE ORGANIZATION",
+    jobTitle: "Technical Executive",
+    companyLogo:
+      "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/alexa.png",
+    companyName: "Alexa Developers, SRMIST KTR",
+    duration: "Dec 2020 - Present",
+    descrption: [
+      "Conducted a 2-day workshop on Fundamentals and some Advanced concepts of AWS.",
+      "Working on the backend of the team website using Node and Typescript",
+    ],
+  },
+  {
+    experienceType: "COLLEGE ORGANIZATION",
+    jobTitle: "Web Developer",
+    companyLogo:
+      "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/geny.png",
+    companyName: "GenY, SRMIST KTR",
+    duration: "Nov 2020 - Nov 2021",
+    descrption: [
+      " Built a File-Uploader application using NodeJS and Multer as part of the team project.",
+      "Worked on developing a CRM (MERN) as part of the team website.",
+    ],
+  },
+  {
+    jobTitle: "",
+    companyLogo:
+      "https://images.unsplash.com/photo-1538589085637-33f227415e36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWNoaWV2ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    companyName: "Achieving More Out There! 🎯",
+    duration: "",
+    descrption: [],
+  },
+];
+
 export default function Experience() {
+  const [experience, setExperiemce] = useState("");
+  useEffect(() => {
+    setExperiemce(experienceDetails);
+  }, []);
   return (
     <section id="experience" class="dark">
       <div class="inner-width">
         <h1 className="title">Experience</h1>
         <div class="section-title"></div>
         <div class="services">
-          <Bounce bottom>
-            <div className="experience">
-              <h4>COLLEGE CLUB</h4>
-              <h3>Acting Head Web/App Development</h3>
-              <div className="exp-head">
-                <img
-                  src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/IEEE.png"
-                  alt="IEEE"
-                  className="club-logo"
-                ></img>
-                <h2>IEEE SRM Student Branch</h2>
+          {experience.length > 0 ? (
+            experience.map((item) => (
+              <Bounce bottom>
+                <div className="experience">
+                  <h4>{item.experienceType}</h4>
+                  <h3>{item.jobTitle}</h3>
+                  <div className="exp-head">
+                    <img
+                      src={`${item.companyLogo}`}
+                      className="club-logo"
+                      alt={item.companyName}
+                    ></img>
+                    <h2>{item.companyName}</h2>
+                  </div>
+                  <div className="content-box">
+                    {item.duration}
+                    <p className="exp-content">
+                      {item.descrption.map((desc) => (
+                        <ul type="disc">
+                          <li className="span">{desc}</li>
+                        </ul>
+                      ))}
+                    </p>
+                  </div>
+                </div>
+              </Bounce>
+            ))
+          ) : (
+            <Bounce bottom>
+              <div className="experience">
+                <h4>
+                  Looks Empty? Don't think I got no experience, mgiht be some
+                  issue with the servers. Let's have a cup of coffee, maybe I'll
+                  blow your minds ❤️‍🔥
+                </h4>
               </div>
-              <div className="content-box">
-                July 2021 - Present
-                <p className="exp-content">
-                  <ul type="disc">
-                    <li className="span">
-                      {" "}
-                      Developed React-Native Application for team project.
-                    </li>
-                    <li className="span">
-                      {" "}
-                      Workshops and mentoring on various Web-based projects.
-                    </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-          </Bounce>
-          <Bounce bottom>
-            <div className="experience">
-              <h4>COLLEGE CLUB</h4>
-              <h3>Technical Executive</h3>
-              <div className="exp-head">
-                <img
-                  src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/alexa.png"
-                  className="club-logo"
-                  alt="Alexa"
-                ></img>
-                <h2>Alexa Developers, SRMIST KTR</h2>
-              </div>
-              <div className="content-box">
-                Dec 2020 - Present
-                <p className="exp-content">
-                  <ul type="disc">
-                    <li className="span">
-                      Conducted a 2-day workshop on Fundamentals and some
-                      Advanced concepts of AWS.
-                    </li>
-                    <li className="span">
-                      Working on the backend of the team website using Node and
-                      Typescript.
-                    </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-          </Bounce>
-          <Bounce bottom>
-            <div className="experience">
-              <h4>INTERNSHIP</h4>
-              <h3>Software Developer</h3>
-              <div className="exp-head">
-                <img
-                  src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/techanalogy.png"
-                  alt="TA"
-                ></img>
-              </div>
-              <div className="content-box">
-                Apr 2021 - Present
-                <p className="exp-content">
-                  <ul type="disc">
-                    <li className="span">
-                      Developed the Front-End of the Events Portal.{" "}
-                      <a href="https://events.techanalogy.org/">
-                        @events-techanalogy.
-                      </a>
-                    </li>
-                    <li className="span">
-                      {" "}
-                      Managed and oversaw the team for production-ready
-                      projects.
-                    </li>
-                    <li className="span">
-                      {" "}
-                      Managed and lead the team and developed registration
-                      portals with payment integration which were viewed by over
-                      2000 people.{" "}
-                    </li>
-                    <li className="span">
-                      One of the key speakers for the event Cloud Net, a 6 Day
-                      Cloud Computing Workshop. Mentored over 150 students from
-                      colleges across India.{" "}
-                    </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-          </Bounce>
-
-          <Bounce bottom>
-            <div className="experience">
-              <h4>COLLEGE CLUB</h4>
-              <h3>Web Developer</h3>
-              <div className="exp-head">
-                <img
-                  src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/geny.png"
-                  className="club-logo"
-                  alt="GenY"
-                ></img>
-                <h2>GenY, SRMIST KTR</h2>
-              </div>
-              <div className="content-box">
-                Nov 2020 - Nov 2021
-                <p className="exp-content">
-                  <ul type="disc">
-                    <li className="span">
-                      Built a File-Uploader application using NodeJS and Multer
-                      as part of the team project.
-                    </li>
-                    <li className="span">
-                      Working with GenY Team on the Front-End and Back-end of
-                      the team website.
-                    </li>
-
-                    <li className="span">
-                      Worked on developing a CRM (MERN) as part of the team
-                      website.
-                    </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-          </Bounce>
+            </Bounce>
+          )}
         </div>
       </div>
     </section>
