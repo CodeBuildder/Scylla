@@ -1,15 +1,39 @@
-import { ListItem } from "@material-ui/core";
 import React, { useState, useEffect } from "react";
 import Bounce from "react-reveal/Bounce";
 
 const experienceDetails = [
   {
     experienceType: "INTERNSHIP",
+    jobTitle: "Cloud Engineer Analyst",
+    companyLogo:
+      "https://www.startupjobsportal.com/wp-content/uploads/2022/07/1_y0S5M5eIaZnxzyyMqaDF6g.png",
+    companyName: "Searce Inc",
+    duration: "June 2022 - Present",
+    descrption: [
+      "Worked on 2+ Cloud Migration projects from India and US.",
+      "Configured Google Managed Prometheus for Client.",
+      "Developed Automation Shell scripts using Python.",
+    ],
+  },
+  {
+    experienceType: "INTERNSHIP",
+    jobTitle: "Software Developer",
+    companyLogo:
+      "https://www.vanaalstgroup.com/sites/default/files/NORINCO%20LOGO%20NEW.JPG",
+    companyName: "Norinco Pvt Ltd.",
+    duration: "Nov 2021 - Jun 2022",
+    descrption: [
+      "Developed a scalable backend architecture using NestTS and PostgreSQL.",
+      "Built a React-Native Mobile Application for various logistics purposes.",
+    ],
+  },
+  {
+    experienceType: "INTERNSHIP",
     jobTitle: "Software Development Engineer",
     companyLogo:
       "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/magnox.png",
-    companyName: "Magnox Technologies Pvt Lt.",
-    duration: "Nov 2021 - Present",
+    companyName: "Magnox Technologies Pvt Ltd.",
+    duration: "Nov 2021 - Feb 2022",
     descrption: [
       " Single Handedly architected a robust and scalable Ed Tech platform using React-Native.",
       "Utilized best industry practices to develop and design the applications.",
@@ -29,7 +53,7 @@ const experienceDetails = [
   },
   {
     experienceType: "COLLEGE ORGANIZATION",
-    jobTitle: "Acting Head Web/App Development",
+    jobTitle: "Head of Web/App Development",
     companyLogo:
       "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/IEEE.png",
     companyName: "IEEE SRM Student Branch",
@@ -117,7 +141,7 @@ export default function Experience() {
                 <h4>
                   Looks Empty? Don't think I got no experience, mgiht be some
                   issue with the servers. Let's have a cup of coffee, maybe I'll
-                  blow your minds ❤️‍🔥
+                  blow your minds. ❤️‍🔥
                 </h4>
               </div>
             </Bounce>
