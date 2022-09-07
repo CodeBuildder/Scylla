@@ -14,6 +14,8 @@ const experienceDetails = [
       "Configured Google Managed Prometheus for Client.",
       "Developed Automation Shell scripts using Python.",
     ],
+    skills:
+      "Google Cloud Platform (GCP) · Docker · Python · Prometheus · Grafana · Terraform · Google Kubernetes Engine (GKE)",
   },
   {
     experienceType: "INTERNSHIP",
@@ -26,6 +28,8 @@ const experienceDetails = [
       "Developed a scalable backend architecture using NestTS and PostgreSQL.",
       "Built a React-Native Mobile Application for various logistics purposes.",
     ],
+    skills:
+      "ReactJS · NestJS · PostgreSQL · React Native · TypeScript · Data Migration",
   },
   {
     experienceType: "INTERNSHIP",
@@ -38,6 +42,7 @@ const experienceDetails = [
       " Single Handedly architected a robust and scalable Ed Tech platform using React-Native.",
       "Utilized best industry practices to develop and design the applications.",
     ],
+    skills: "styled-components · React Native · JavaScript",
   },
   {
     experienceType: "INTERNSHIP",
@@ -50,6 +55,8 @@ const experienceDetails = [
       " Managed and lead the team and developed registration portals with payment integration which were viewed by over 2000 people.",
       "One of the key speakers for the event Cloud Net, a 6 Day Cloud Computing Workshop. Mentored over 150 students from colleges across India.",
     ],
+    skills:
+      "ReactJS · Collaboration · Leadership · Team Management · React Native · TypeScript · Agile Methodology",
   },
   {
     experienceType: "COLLEGE ORGANIZATION",
@@ -59,9 +66,14 @@ const experienceDetails = [
     companyName: "IEEE SRM Student Branch",
     duration: "July 2021 - Present",
     descrption: [
-      "Heading a Team of 25 members",
+      "Heading a Team of 35+ members",
       "Upskilling and mentoring on various Web-based projects.",
+      "Organized 3+ workshops for the internal Team.",
+      "Trained and Mentored the team for external workshops which had over 200+ participants.",
+      "Directing and Guiding members from various tech domains for their personal upskillment.",
     ],
+    skills:
+      "Conflict Management · Adaptability · Leadership · Resourcefulness · Time management",
   },
   {
     experienceType: "COLLEGE ORGANIZATION",
@@ -74,6 +86,7 @@ const experienceDetails = [
       "Conducted a 2-day workshop on Fundamentals and some Advanced concepts of AWS.",
       "Working on the backend of the team website using Node and Typescript",
     ],
+    skills: "Typescript · NodeJS ",
   },
   {
     experienceType: "COLLEGE ORGANIZATION",
@@ -86,6 +99,7 @@ const experienceDetails = [
       " Built a File-Uploader application using NodeJS and Multer as part of the team project.",
       "Worked on developing a CRM (MERN) as part of the team website.",
     ],
+    skills: "ReactJS · GitHub",
   },
   {
     jobTitle: "",
@@ -131,6 +145,9 @@ export default function Experience() {
                         </ul>
                       ))}
                     </p>
+                    <div className="proj-det">
+                      <p className="proj-stack">{item.skills}</p>
+                    </div>
                   </div>
                 </div>
               </Bounce>
