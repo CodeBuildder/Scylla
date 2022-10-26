@@ -26,7 +26,7 @@ export default function Home() {
           <h1>
             <Typical
               steps={[
-                "Codebuilder",
+                "YoungMage",
                 1500,
                 "Insightful",
                 1500,
@@ -42,7 +42,7 @@ export default function Home() {
           <div className="sm">
             <BootstrapTooltip title="Follow me @ Twitter">
               <a
-                href="https://twitter.com/KashKS20"
+                href="https://twitter.com/YoungMage_"
                 target="_blank"
                 className="fab fa-twitter"
               ></a>
@@ -56,7 +56,7 @@ export default function Home() {
             </BootstrapTooltip>
             <BootstrapTooltip title="Fork me @ Github">
               <a
-                href="https://github.com/Codebuilder2022"
+                href="https://github.com/YoungMage"
                 target="_blank"
                 className="fab fa-github"
               ></a>

@@ -7,7 +7,7 @@ const projectDetails = [
       "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/project-rev/schduler.png",
     projectImageALT: "OffTP",
     projectName: "OffTP",
-    projectGitLink: "https://github.com/Codebuilder2022/SIH2022",
+    projectGitLink: "https://github.com/YoungMage/SIH2022",
     projectSourceLink: "",
     projectDescription:
       "Our mobile application generates OTP in areas with no cellular area using an Algorithm that we have developed. You can use our app to connect as many as government websites as you want and generated unique OTP for each of these platforms without the need of internet/cellular signal.",
@@ -18,7 +18,7 @@ const projectDetails = [
       "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/project-rev/schduler.png",
     projectImageALT: "Post.io",
     projectName: "Post.io",
-    projectGitLink: "https://github.com/Codebuilder2022/Post.io",
+    projectGitLink: "https://github.com/YoungMage/Post.io",
     projectSourceLink: "",
     projectDescription:
       "An online aggregator platform for logistics companies to let the customers choose the best service provider on the basis of rate/service quality/reach and transit time. Live rates, Comparison, Tracking of goods, and Documentation all in one portal.",
@@ -29,7 +29,7 @@ const projectDetails = [
       "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/project-rev/schduler.png",
     projectImageALT: "Servicio",
     projectName: "Servicio",
-    projectGitLink: "https://github.com/Codebuilder2022/DevFest-Hack",
+    projectGitLink: "https://github.com/YoungMage/DevFest-Hack",
     projectSourceLink: "",
     projectDescription:
       "A MERN Stack Website that connects utility helpers and users. Using React with TailwindCSS in Typescript. Uses USSD service to allow access to users without Internet.",
@@ -40,7 +40,7 @@ const projectDetails = [
       "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/project-rev/schduler.png",
     projectImageALT: "Chatter-Bot",
     projectName: "Chatter-Bot",
-    projectGitLink: "https://github.com/Codebuilder2022/ChatterBot2.0",
+    projectGitLink: "https://github.com/YoungMage/ChatterBot2.0",
     projectSourceLink: "",
     projectDescription:
       "Using Socket.io and NodeJS, this open-sourced Chat Application can be integrated with any Web App to create a private end-to-end connection.",

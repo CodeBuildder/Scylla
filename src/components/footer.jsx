@@ -4,11 +4,11 @@ export default function Footer() {
       <footer>
         <div className="inner-width">
           <div className="copyright">
-            &copy; 2020 | Developed with 💖 By <a href="#">CodeBuilder</a>
+            &copy; 2020 | Developed with ❤️‍🔥 By <a href="#">YoungMage</a>
           </div>
           <div className="sm">
             <a
-              href="https://twitter.com/KashKS20"
+              href="https://twitter.com/YoungMage_"
               target="_blank"
               className="fab fa-twitter"
             ></a>
@@ -18,7 +18,7 @@ export default function Footer() {
               className="fab fa-linkedin-in"
             ></a>
             <a
-              href="https://github.com/Codebuilder2022"
+              href="https://github.com/YoungMage"
               target="_blank"
               className="fab fa-github"
             ></a>
