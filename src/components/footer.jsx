@@ -18,7 +18,7 @@ export default function Footer() {
               className="fab fa-linkedin-in"
             ></a>
             <a
-              href="https://github.com/YoungMage"
+              href="https://github.com/CodeBuildder"
               target="_blank"
               className="fab fa-github"
             ></a>

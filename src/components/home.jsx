@@ -56,7 +56,7 @@ export default function Home() {
             </BootstrapTooltip>
             <BootstrapTooltip title="Fork me @ Github">
               <a
-                href="https://github.com/YoungMage"
+                href="https://github.com/CodeBuildder"
                 target="_blank"
                 className="fab fa-github"
               ></a>
