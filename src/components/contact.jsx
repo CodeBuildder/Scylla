@@ -9,7 +9,7 @@ export default function Contact() {
 
   const onSubmit = (data) => {
     axios
-      .post("https://ksmailer.herokuapp.com/send", data, {
+      .post("https://contact-form-backend.onrender.com/send", data, {
         headers: {
           "Content-Type": "application/json",
         },

@@ -10,7 +10,7 @@ const experienceDetails = [
     companyName: "Searce Inc",
     duration: "June 2022 - Present",
     descrption: [
-      "Worked on 2+ Cloud Migration projects from India and US.",
+      "Worked on 2+ Cloud Infrastructure Migration projects from India and US.",
       "Configured Google Managed Prometheus for Client.",
       "Developed Automation Shell scripts using Python.",
     ],
@@ -81,7 +81,7 @@ const experienceDetails = [
     companyLogo:
       "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/alexa.png",
     companyName: "Alexa Developers, SRMIST KTR",
-    duration: "Dec 2020 - Present",
+    duration: "Dec 2020 - Oct 2021",
     descrption: [
       "Conducted a 2-day workshop on Fundamentals and some Advanced concepts of AWS.",
       "Working on the backend of the team website using Node and Typescript",

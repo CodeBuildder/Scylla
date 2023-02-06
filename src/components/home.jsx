@@ -26,7 +26,7 @@ export default function Home() {
           <h1>
             <Typical
               steps={[
-                "YoungMage",
+                "Codebuildder",
                 1500,
                 "Insightful",
                 1500,
