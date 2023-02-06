@@ -109,6 +109,13 @@ export default function CertificateModal(props) {
                 alt="Google Cloud, India"
                 className="certifPic"
               />
+            ) : props.props.certificateName ==
+              "Google IT Support Professional" ? (
+              <img
+                src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/it_support.png"
+                alt="Google"
+                className="certifPic"
+              />
             ) : (
               <h4>
                 Certificate not Visible? Servers are probably down. Do checkout

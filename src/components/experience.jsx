@@ -21,7 +21,7 @@ const experienceDetails = [
     experienceType: "INTERNSHIP",
     jobTitle: "Software Developer",
     companyLogo:
-      "https://www.vanaalstgroup.com/sites/default/files/NORINCO%20LOGO%20NEW.JPG",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvP4H6tc1w8rWVrwRvD8sDaPl6IuypN5zq8w&usqp=CAU",
     companyName: "Norinco Pvt Ltd.",
     duration: "Nov 2021 - Jun 2022",
     descrption: [

@@ -4,7 +4,7 @@ export default function Footer() {
       <footer>
         <div className="inner-width">
           <div className="copyright">
-            &copy; 2020 | Developed with ❤️‍🔥 By <a href="#">YoungMage</a>
+            &copy; 2020 | Developed with ❤️‍🔥 By <a href="#">CodeBuildder</a>
           </div>
           <div className="sm">
             <a

@@ -27,12 +27,19 @@ const certificationsDetails = [
     certificateImageALT: "Google Cloud, India",
   },
   {
-    certificateName: "Career Edge - Knockdown the Lockdown",
-    certifiedBy: "Tata Consultancy Services",
+    certificateName: "Google IT Support Professional",
+    certifiedBy: "Google",
     certificateImageSRC:
-      "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/tata.jpg",
-    certificateImageALT: "Tata Consultancy Services",
+      "https://www.credly.com/earner/earned/badge/0121ee83-507e-4c17-bd8b-b24fdf974bd4",
+    certificateImageALT: "Google Cloud, India",
   },
+  // {
+  //   certificateName: "Career Edge - Knockdown the Lockdown",
+  //   certifiedBy: "Tata Consultancy Services",
+  //   certificateImageSRC:
+  //     "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/images/logo/tata.jpg",
+  //   certificateImageALT: "Tata Consultancy Services",
+  // },
 ];
 
 export default function Certification() {
