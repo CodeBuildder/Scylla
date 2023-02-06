@@ -30,8 +30,8 @@ const certificationsDetails = [
     certificateName: "Google IT Support Professional",
     certifiedBy: "Google",
     certificateImageSRC:
-      "https://www.credly.com/earner/earned/badge/0121ee83-507e-4c17-bd8b-b24fdf974bd4",
-    certificateImageALT: "Google Cloud, India",
+      "https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/it_support.png",
+    certificateImageALT: "Google India",
   },
   // {
   //   certificateName: "Career Edge - Knockdown the Lockdown",
