@@ -83,33 +83,33 @@ export default function CertificateModal(props) {
       >
         <Fade in={open}>
           <div className="certifModal">
-            {props.props.certificateName ==
+            {props.props.certificateName ===
             "Google Cloud: Associate Cloud Engineer" ? (
               <img
                 src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/32916853"
                 alt="Google Cloud Platform"
                 className="certifPic"
               />
-            ) : props.props.certificateName == "AWS Academy Graduate" ? (
+            ) : props.props.certificateName === "AWS Academy Graduate" ? (
               <img
                 src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/aws+academy.png"
                 alt="AWS Academy Graduate"
                 className="certifPic"
               />
-            ) : props.props.certificateName ==
+            ) : props.props.certificateName ===
               "Career Edge - Knockdown the Lockdown" ? (
               <img
                 src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/TCS+ion-1.png"
                 alt="Tata Consultancy Services"
                 className="certifPic"
               />
-            ) : props.props.certificateName == "#30DaysCloudGoogle" ? (
+            ) : props.props.certificateName === "#30DaysCloudGoogle" ? (
               <img
                 src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/%2330DaysCloudGoogleParticipation+Certificate-1.png"
                 alt="Google Cloud, India"
                 className="certifPic"
               />
-            ) : props.props.certificateName ==
+            ) : props.props.certificateName ===
               "Google IT Support Professional" ? (
               <img
                 src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/certificates/it_support.png"
