@@ -6,7 +6,7 @@ export default function About() {
         <h1 className="section-title"></h1>
         <div className="about-content">
           <img
-            src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/kkpic/kkpic.png"
+            src="https://kkportfolio-assets.s3.ap-south-1.amazonaws.com/assets/kkpic/me.jpg"
             alt="Kaushik here!"
             className="about-pic"
           />
