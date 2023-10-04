@@ -8,7 +8,7 @@ const experienceDetails = [
     companyLogo:
       "https://www.startupjobsportal.com/wp-content/uploads/2022/07/1_y0S5M5eIaZnxzyyMqaDF6g.png",
     companyName: "Searce Inc",
-    duration: "June 2022 - Present",
+    duration: "June 2022 - June 2023",
     descrption: [
       "Worked on 2+ Cloud Infrastructure Migration projects from India and US.",
       "Configured Google Managed Prometheus for Client.",

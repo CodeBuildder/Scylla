@@ -19,9 +19,9 @@ export default function About() {
               <span>Persistent</span>
             </h3>
             <p>
-              An ardent student pursuing Bachelors' in Computer Science
-              Engineering at the SRM University (Kattankulathur), India.
-              Enthused and ferverous with learning the upcoming trends in the{" "}
+              An ardent student pursuing my Masters in Computer Information
+              Systems at Boston University. Enthused and ferverous with learning
+              the upcoming trends in the{" "}
               <em>contemporary world of computers'</em>. Proficient and Highly
               skilled in various programming languages in my domain. Being
               diligent and conscientious is what makes me an efficient and
